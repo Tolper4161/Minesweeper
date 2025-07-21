@@ -5,7 +5,7 @@ export class Cell {
         this.#hasBomb;
     }
 
-    checkBomb() {
+    checkIsBomb() {
         return this.#hasBomb;
     }
 
