@@ -13,10 +13,14 @@ export class Cell {
         this.#hasBomb = true;
     }
 
-    draw() {
+    log() {
         if (this.#hasBomb) {
             return "[*]";
         }
         return "[ ]";
+    }
+
+    draw() {
+        
     }
 }

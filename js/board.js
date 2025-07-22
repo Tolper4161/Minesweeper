@@ -97,11 +97,6 @@ export class Board {
         }
     }
 
-    // Отрисовка интерфейса поля
-    draw() {
-
-    }
-
     // Возвращает расположение мин на поле
     log() {
         let boardInStrFormat = "";
@@ -111,11 +106,16 @@ export class Board {
             for(let col = 0; col < this.#width; col++) {
                 cell = this.#board[row][col];
                 
-                boardInStrFormat += cell.draw();
+                boardInStrFormat += cell.log();
             }
             boardInStrFormat += "\n";
         }
 
         console.log(boardInStrFormat);
+    }
+
+    // Отрисовка интерфейса поля
+    draw() {
+
     }
 }
