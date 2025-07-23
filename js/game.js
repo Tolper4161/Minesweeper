@@ -5,8 +5,7 @@ class Game {
     #debugMode = true;
 
     constructor() {
-        this.#board = new Board(30, 16, 99);
-        this.#board.genLevel();
+        this.#board = new Board("game", 30, 16, 99);
     }
 
     update() {

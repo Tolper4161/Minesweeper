@@ -1,0 +1,100 @@
+.board__line {
+    display: flex;
+}
+
+.cell {
+    width: 32px;
+    height: 32px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.cell.closed {
+    background: url(./img/cell/cell_closed.png);
+    background-size: cover;
+}
+
+.cell.closed:hover {
+    background: url(./img/cell/cell_opened_0.png);
+    background-size: cover;
+}
+
+.cell.closed.flag {
+    background: url(./img/cell/cell_closed_flag.png);
+    background-size: cover;
+}
+
+.cell.closed.flag:hover {
+    background: url(./img/cell/cell_closed_flag.png);
+    background-size: cover;
+}
+
+.cell.closed.question {
+    background: url(./img/cell/cell_closed_question.png);
+    background-size: cover;
+}
+
+.cell.opened.num0 {
+    background: url(./img/cell/cell_opened_0.png);
+    background-size: cover;
+}
+
+.cell.opened.num1 {
+    background: url(./img/cell/cell_opened_1.png);
+    background-size: cover;
+}
+
+.cell.opened.num2 {
+    background: url(./img/cell/cell_opened_2.png);
+    background-size: cover;
+}
+
+.cell.opened.num3 {
+    background: url(./img/cell/cell_opened_3.png);
+    background-size: cover;
+}
+
+.cell.opened.num4 {
+    background: url(./img/cell/cell_opened_4.png);
+    background-size: cover;
+}
+
+.cell.opened.num5 {
+    background: url(./img/cell/cell_opened_5.png);
+    background-size: cover;
+}
+
+.cell.opened.num6 {
+    background: url(./img/cell/cell_opened_6.png);
+    background-size: cover;
+}
+
+.cell.opened.num7 {
+    background: url(./img/cell/cell_opened_7.png);
+    background-size: cover;
+}
+
+.cell.opened.num8 {
+    background: url(./img/cell/cell_opened_8.png);
+    background-size: cover;
+}
+
+.cell.opened.bomb {
+    background: url(./img/cell/cell_opened_bomb.png);
+    background-size: cover;
+}
+
+.cell.opened.bomb.mistake {
+    background: url(./img/cell/cell_opened_bomb_mistake.png);
+    background-size: cover;
+}
+
+.cell.opened.bomb.red {
+    background: url(./img/cell/cell_opened_bomb_red.png);
+    background-size: cover;
+}
+
+.cell.opened.question {
+    background: url(./img/cell/cell_opened_question.png);
+    background-size: cover;
+}
