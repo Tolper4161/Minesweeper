@@ -1,0 +1,104 @@
+.border {
+    width: 16px;
+    height: 16px;
+    background-position: center;
+}
+
+#border-container__top, #border-container__header, #border-container__bottom {
+    display: flex;
+}
+
+.border.bottom {
+    background: url(./img/border/bottom.png);
+    background-size: contain;
+    height: 12px;
+}
+
+.border.bottom-left {
+    background: url(./img/border/bottomleft.png);
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+
+.border.bottom-right {
+    background: url(./img/border/bottomright.png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+}
+
+.border.counter-left {
+    background: url(./img/border/counterleft.png);
+    background-size: cover;
+}
+
+.border.counter-middle {
+    background: url(./img/border/countermiddle.png);
+    background-size: cover;
+}
+
+.border.counter-right {
+    background: url(./img/border/counterright.png);
+    background-size: cover;
+}
+
+.border.left {
+    background: url(./img/border/left.png);
+    background-size: contain;
+    width: 12px;
+}
+
+.border.middle-left {
+    background: url(./img/border/middleleft.png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+}
+
+.border.middle {
+    background: url(./img/border/middle.png);
+    background-size: contain;
+    height: 12px;
+}
+
+.border.middle-right {
+    background: url(./img/border/middleright.png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+}
+
+.border.right {
+    background: url(./img/border/right.png);
+    background-size: contain;
+    width: 12px;
+}
+
+.border.top {
+    background: url(./img/border/top.png);
+    background-size: contain;
+    height: 12px;
+}
+
+.border.top-left {
+    background: url(./img/border/topleft.png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+}
+
+.border.top-right {
+    background: url(./img/border/topright.png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+}
+
+.border.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url(./img/border/bg.png);
+    background-size: contain;
+}

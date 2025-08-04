@@ -1,0 +1,23 @@
+#restart-btn {
+    width: 52px;
+    height: 52px;
+    border: 0px;
+    background: url(./img/restart-btn/smileface.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+#restart-btn.clicked {
+    background: url(./img/restart-btn/smilefacedown.png);
+    background-size: cover;
+}
+
+#restart-btn.victory {
+    background: url(./img/restart-btn/winface.png);
+    background-size: cover;
+}
+
+#restart-btn.dead {
+    background: url(./img/restart-btn/lostface.png);
+    background-size: cover;
+}

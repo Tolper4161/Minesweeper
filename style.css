@@ -1,3 +1,45 @@
-#board {
+#game {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: min-content;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
+#board {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#border-container__middle {
+    display: flex;
+}
+
+.board-content {
+    display: flex;
+}
+
+.border-container__bottom {
+    display: flex;
+}
+
+.BOOM {
+    animation: BOOM 0.2s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes BOOM {
+    0% { transform: translate(-50%, -50%); }
+    10% { transform: translate(calc(-50% - 2px), calc(-50% + 2px)); }
+    20% { transform: translate(calc(-50% + 2px), calc(-50% - 2px)); }
+    30% { transform: translate(calc(-50% - 2px), calc(-50% - 2px)); }
+    40% { transform: translate(calc(-50% + 2px), calc(-50% + 2px)); }
+    50% { transform: translate(calc(-50% - 2px), calc(-50% + 2px)); }
+    60% { transform: translate(calc(-50% + 2px), calc(-50% - 2px)); }
+    70% { transform: translate(calc(-50% - 2px), calc(-50% - 2px)); }
+    80% { transform: translate(calc(-50% + 2px), calc(-50% + 2px)); }
+    90% { transform: translate(calc(-50% - 2px), calc(-50% + 2px)); }
+    100% { transform: translate(-50%, -50%); }
 }
